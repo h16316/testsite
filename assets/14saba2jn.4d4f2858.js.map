@@ -1,0 +1,1 @@
+{"version":3,"file":"14saba2jn.4d4f2858.js","sources":["../../__vite-browser-external"],"sourcesContent":["export default new Proxy({}, {\n  get() {\n    throw new Error('Module \"\" has been externalized for browser compatibility and cannot be accessed in client code.')\n  }\n})"],"names":[],"mappings":"yCAAA,GAAA,GAAe,GAAI,OAAM,GAAI,CAC3B,KAAM,CACJ,KAAM,IAAI,OAAM"}
