@@ -1,2 +1,0 @@
-import{u as e}from"./index.6082f178.js";const n=s=>e.permissions[s],m=(s,i="or")=>i=="or"?s.some(r=>e.permissions[r]):s.every(r=>e.permissions[r]);export{n as a,m as i};
-//# sourceMappingURL=utils.7860ba42.js.map
