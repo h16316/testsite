@@ -1,0 +1,2 @@
+const a=(t,e)=>!e||!e.length?!1:e.join("")==="*"?!0:t.every(r=>e.includes(r)),i=(t,e)=>{const{resource:r,actions:s=[]}=t;if(r instanceof RegExp){const u=Object.keys(e).filter(o=>o.match(r));return u.length?u.every(o=>{const f=e[o];return a(s,f)}):!1}const n=e[r];return a(s,n)};var l=(t,e)=>{const{requiredPermissions:r,oneOfPerm:s}=t;if(Array.isArray(r)&&r.length){let n=0;for(const c of r)i(c,e)&&n++;return s?n>0:n===r.length}return!0};export{l as a};
+//# sourceMappingURL=authentication.19023a58.js.map

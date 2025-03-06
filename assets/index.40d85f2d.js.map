@@ -1,0 +1,1 @@
+{"version":3,"file":"index.40d85f2d.js","sources":["../../src/pages/ai-manage/components/ai-message/index.tsx"],"sourcesContent":["import React from \"react\";\n\n\nconst AiMessage = () => {\n\n    \n}\n\n\nexport default AiMessage;"],"names":["AiMessage"],"mappings":"AAGA,KAAMA,GAAYA,IAAM"}
